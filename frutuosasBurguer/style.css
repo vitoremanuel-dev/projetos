@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    list-style: none;
+    text-decoration: none;
+}
+
+.background-hamb {
+    background: rgba(3,0,12,0.7) url(./imagens/pexels-daniel-reche-1556688.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.404);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    align-items: center;
+    text-align: center;
+    gap: 10rem;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+    font-size: 15px;
+}
+
+nav a {
+    color: white;
+    font-weight: 500;
+}
+
+.button-enter {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.button-enter button {
+    background: rgb(238, 238, 47);
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+}
+
+.button-enter a {
+    color: white;
+    font-size: 18px;
+}
+
+.frutuosa-meio-container {
+    margin-left: 80px;
+    margin-top: 12%;
+    max-width: 100%;
+}
+
+.meio-frutuosa h1 {
+    color: white;
+    font-size: 68px;
+}
+
+.meio-frutuosa p {
+    color: #f9f9f9;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.btn {
+    background-color: rgb(221, 221, 44);
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    width: 150px;
+}
+
+.queridinhos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 6rem;
+}
+
+.queridinhos li{
+    margin: 20px;
+    padding: 10px;
+    background: rgb(255, 67, 67);
+    text-align: center;
+    border-radius: 15px;
+    color:black ;
+}
+
+#bg-white {
+    font-size: 10px;
+    color: #515151;
+    line-height: 10px;
+}
+
+.bg-hero {
+    background: url(./imagens/pexels-kampus-production-5920742.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 80vh;
+}
+
