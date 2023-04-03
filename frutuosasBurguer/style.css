@@ -110,14 +110,9 @@ nav a {
     color:black ;
 }
 
-#bg-white {
-    font-size: 10px;
-    color: #515151;
-    line-height: 10px;
-}
-
 .bg-hero {
-    background: url(./imagens/pexels-kampus-production-5920742.jpg);
+    background: rgba(3,0,12,0.7) url(./imagens/pexels-kampus-production-5920742.jpg);
+    background-blend-mode: darken;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -125,3 +120,23 @@ nav a {
     height: 80vh;
 }
 
+#bg-white {
+    position: absolute;
+    background-color: white;
+    width: 700px;
+    padding: 50px;
+    top: 145%;
+    left: 28%;
+}
+
+#bg-white h1{
+    color: #0b1421;
+    margin-bottom: 10px;
+    border-left: solid 2px #DA2535 ; // Borda do título vermelha
+}
+
+#bg-white a{
+    color: #DA2535;
+    font-weight: 600;
+    font-size: 15px;
+}
