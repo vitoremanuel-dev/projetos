@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cáculo de juros</title>
+</head>
+
+<body>
+    <form>
+        <p>Data de vencimento:
+            <input type="date" id="inDataVenc" autofocus required>
+        </p>
+        <p>Valor da conta:
+            <input type="number" id="inValor" min="0" step="0.01" class="alinha-direita" required>
+            <input type="submit" value="Calcular juros e multa">
+        </p>
+        <p>Valor da multa:
+            <input type="number" id="outMulta" class="alinha-direita" readonly>
+        </p>
+        <p>Valor do juros:
+            <input type="number" id="outJuros" class="alinha-direita" readonly>
+        </p>
+        <p>Total a pagar:
+            <input type="number" id="outTotal" class="alinha-direita" readonly>
+            <input type="reset" value="Nova Conta ">
+        </p>
+    </form>
+</body>
+
+</html>
