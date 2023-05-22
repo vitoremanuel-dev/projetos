@@ -14,10 +14,21 @@
   <!-- doctype, html, head e body (conf. exemplo 9.1) -->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-8" id="divQuadro"></div>
+      <div class="col-sm-8" id="divQuadro">
+        <h1>Tarefas do dia a dia (a realizar)</h1>
+        <form>
+          <p><label for="inTarefa">Tarefa:</label>
+          <input type="text" class="form-control" id="inTarefa" required autofocus></p>
+          <p><input type="submit" value="Adicionar &#10003" class="btn btn-primary">
+          <input type="button" value="Selecionar &#8645" class="btn btn-info" id="btSelecionar">
+          <input type="button" class="btn btn-danger" value="Retirar Selecionada &#10007" id="btRetirar">
+          <input type="button" class="btn btn-success" value="Gravar &#9673" id="btGravar">
+        </p>
+        </form>
+      </div>
     </div>
   </div>
-  <!-- /body e /html -->
+  <script src="script.js"></script>
 </body>
 
 </html>
